@@ -32,7 +32,7 @@ i {
 #navb {
   background: linear-gradient(
     90deg,
-    rgba(230, 227, 227, 0),
+    rgba(214, 211, 211, 0),
     rgb(230, 225, 225)
   );
   background-color: #fff;
@@ -226,7 +226,7 @@ input:focus {
 }
 
 .count-text {
-  font-size: 13px;
+  font-size: 18px;
   font-weight: normal;
   margin-top: 10px;
   margin-bottom: 0;
