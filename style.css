@@ -8,10 +8,11 @@ body {
 }
 #header1 {
   line-height: 2.5rem;
-  background-color: #5fa536;
+  background-color: #bcc0ba;
   margin-bottom: 0;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
+  color: #000;
 }
 p {
   font-size: 12px;
