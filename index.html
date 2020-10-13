@@ -474,7 +474,7 @@
                         <label for="date" class="h6 mt-4">Appoinment Date</label><br>
                         <div class="input-group rounded form-group">
                         <i class="fas fa-calendar-week mr-2 pt-1"></i> 
-                          <input type="date"  placeholder="choose a date" id="date " name="date" class="form-group"  required style=" width: 90%;">
+                          <input type="text"  placeholder="choose a date" onfocus="(this.type='date')" onblur="(this.type='text')" id="date " name="date" class="form-group"  required style=" width: 90%;">
                       </div>
                       </div>
                       <div class="form-group"> <label for="msg" class="h6">Message</label> <textarea name="message" id="message" cols="6" rows="1" class="form-control border-0" placeholder="Message"></textarea> </div>
