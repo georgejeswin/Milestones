@@ -8,7 +8,7 @@ body {
 }
 #header1 {
   line-height: 2.5rem;
-  background-color: #7bc556;
+  background-color: #7fb465;
   margin-bottom: 0;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
@@ -298,7 +298,7 @@ input:focus {
   font-size: 12px;
 }
 #btn3:hover {
-  background-color: #d4241e;
+  background-color: #dd9f9d;
   color: rgb(255, 255, 255);
   border: 1px solid rgb(255, 255, 255);
 }
@@ -334,3 +334,14 @@ input:focus {
     background-position: 500%;
   }
 }
+
+
+input[type="date"]:before {
+    content: attr(placeholder) !important;
+    color: #aaa;
+    margin-right: 0.5em;
+  }
+  input[type="date"]:focus:before,
+  input[type="date"]:valid:before {
+    content: "";
+  }
