@@ -5,11 +5,16 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   padding-top: 45px;
+  background-image: linear-gradient(to bottom, #ececec 0%, #ffffff 100%);
+
 }
 #header1 {
   line-height: 2.5rem;
-  background-color: #7fb465;
-  margin-bottom: 0;
+  background: linear-gradient(
+    90deg,
+    rgba(247, 14, 14, 0),
+    rgba(49, 168, 38, 0.836)
+  );  margin-bottom: 0;
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
   color: #000;
@@ -107,9 +112,9 @@ i {
   background: none;
 }
 
-.font {
+.font{
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   color: rgb(56, 48, 48);
 }
@@ -175,6 +180,15 @@ input:focus {
   width: 90px;
   margin-bottom: 35px;
 }
+.counter .icon{
+  background-color: rgb(245, 245, 245);
+  border-radius: 50%;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.4);
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin-bottom: 30px;
+}
 
 .single-service .icon i {
   display: block;
@@ -204,9 +218,19 @@ input:focus {
 }
 
 .single-service:hover {
+  background-image: linear-gradient(to bottom, #da971b 0%, #d4d2cc 100%);
+  padding: 30px 20px;
+}
+
+.counter {
+  background-image: linear-gradient(to bottom, #d6c52c 0%, #0fc1eb 100%);
+}
+
+.counter:hover {
   background-image: linear-gradient(to bottom, #da971b 0%, #c5b28e 100%);
   padding: 30px 20px;
 }
+
 
 .single-service:hover .content {
   height: 140px;
@@ -336,3 +360,21 @@ input:focus {
 }
 
 
+/* Container holding the image and the text */
+.service-card {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom:20px;
+  right: 0px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  width: 99%;
+  padding-right: 15px;
+  padding-top: 10px;
+  border-radius: 10px;
+}
