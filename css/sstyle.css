@@ -71,6 +71,11 @@
       line-height: 27px;
     }
   }
+
+  .navbar .nav-link{
+    font-family: 'Sriracha', cursive;
+  
+  }
   .circle-icon {
     background: #1f1c1c;
     width: 130px;

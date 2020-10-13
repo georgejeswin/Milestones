@@ -31,6 +31,10 @@ i {
 #nav li a:hover {
   color: #fa8128;
 }
+.navbar .nav-link{
+  font-family: 'Sriracha', cursive;
+
+}
 
 .mcl {
   font-weight: 100;
