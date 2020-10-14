@@ -27,12 +27,18 @@ p {
 i {
   color: #d87e2a;
 }
-
+#nav li a{
+  color: #d87e2a;
+}
+nav li #active{
+  color: #9c582b;
+}
 #nav li a:hover {
-  color: #fa8128;
+  color: #161414;
 }
 .navbar .nav-link{
   font-size: large;
+  color: #f7680fe7;
 
 
 }
