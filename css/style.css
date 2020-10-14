@@ -28,10 +28,10 @@ i {
   color: #d87e2a;
 }
 #nav li a{
-  color: #d87e2a;
+  color: #dd893b;
 }
 nav li #active{
-  color: #9c582b;
+  color: #945931;
 }
 #nav li a:hover {
   color: #161414;
@@ -264,14 +264,7 @@ input:focus {
   padding: 30px 20px;
 }
 
-.counter {
-  background-image: linear-gradient(to bottom, #d6c52c 0%, #0fc1eb 100%);
-}
 
-.counter:hover {
-  background-image: linear-gradient(to bottom, #da971b 0%, #c5b28e 100%);
-  padding: 30px 20px;
-}
 
 
 .single-service:hover .content {
@@ -279,7 +272,6 @@ input:focus {
 }
 
 .counter {
-  background-color: #ffffff;
   padding: 20px 0;
   border-radius: 5px;
 }

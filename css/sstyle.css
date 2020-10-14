@@ -27,10 +27,21 @@
     color: #d87e2a;
   }
   
-  #nav li a:hover {
-    color: #fa8128;
+  #nav li a{
+    color: #dd893b;
   }
+  nav li #active{
+    color: #945931;
+  }
+  #nav li a:hover {
+    color: #161414;
+  }
+  .navbar .nav-link{
+    font-size: large;
+    color: #f7680fe7;
   
+  
+  }
   .mcl {
     font-weight: 100;
   }

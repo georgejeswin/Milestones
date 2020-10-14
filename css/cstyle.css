@@ -22,10 +22,21 @@ i {
   color: #d87e2a;
 }
 
-#nav li a:hover {
-  color: #fa8128;
+#nav li a{
+  color: #dd893b;
 }
+nav li #active{
+  color: #945931;
+}
+#nav li a:hover {
+  color: #161414;
+}
+.navbar .nav-link{
+  font-size: large;
+  color: #f7680fe7;
 
+
+}
 .mcl {
   font-weight: 100;
 }
@@ -169,9 +180,34 @@ input:focus {
   height: 300px;
   padding: 55px 50px;
   background-color: rgb(238, 238, 238);
-  border-radius: 10px;
+  border-radius: 40px;
   box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.4);
 }
+#ss1 {
+  background-image: linear-gradient(to bottom, #23961f 0%, #71e255 100%);
+}
+
+#ss1:hover {
+  background-image: linear-gradient(to bottom, #1badda 0%, #35da6c 100%);
+  padding: 30px 20px;
+}
+#ss2 {
+  background-image: linear-gradient(to bottom, #eb3232 0%, #e25555 100%);
+}
+
+#ss2:hover {
+  background-image: linear-gradient(to bottom, #1badda 0%, #35da6c 100%);
+  padding: 30px 20px;
+}
+#ss3 {
+  background-image: linear-gradient(to bottom, #2198cfcb 0%, #398ea8ec 100%);
+}
+
+#ss3:hover {
+  background-image: linear-gradient(to bottom, #1badda 0%, #35da6c 100%);
+  padding: 30px 20px;
+}
+
 .single-service .icon {
   background-color: #fff;
   border-radius: 50%;
