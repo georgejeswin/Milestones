@@ -166,7 +166,7 @@ input:focus {
 .single-service {
   transition: 0.5s;
   text-align: center;
-  height: 280px;
+  height: 300px;
   padding: 55px 50px;
   background-color: rgb(238, 238, 238);
   border-radius: 10px;

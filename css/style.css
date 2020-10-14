@@ -12,9 +12,11 @@ padding-top: 0px;
   line-height: 2.5rem;
   background: linear-gradient(
     90deg,
-    rgba(247, 119, 14, 0.753),
-    rgba(219, 212, 203, 0.719)
-  );  margin-bottom: 0;
+    #f7680fe7,
+    rgba(228, 142, 29, 0.788)
+
+  );
+  margin-bottom: 0;
   font-size: 14px;
   color: #000;
 }
@@ -224,7 +226,7 @@ input:focus {
 }
 
 #single-service1 {
-  background-image: linear-gradient(to bottom, #eba132 0%, #e2c855 100%);
+  background-image: linear-gradient(to bottom, #ff8000 0%, #e29955 100%);
 }
 
 #single-service1:hover {
@@ -248,7 +250,7 @@ input:focus {
   padding: 30px 20px;
 }
 #single-service4 {
-  background-image: linear-gradient(to bottom, #3b21cfcb 0%, #3944a867 100%);
+  background-image: linear-gradient(to bottom, #2198cfcb 0%, #398ea8ec 100%);
 }
 
 #single-service4:hover {
