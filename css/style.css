@@ -1,10 +1,11 @@
 * {
   box-sizing: border-box;
+  margin-top: 0;
 }
 body {
-  margin-left: 10px;
-  margin-right: 10px;
-  padding-top: 45px;
+  margin-top: 0;
+padding-top: 0;
+  font-family: 'Times New Roman', Times, serif;
 
 }
 #header1 {
@@ -15,12 +16,10 @@ body {
     rgba(219, 212, 203, 0.719)
   );  margin-bottom: 0;
   font-size: 14px;
-  font-family: Arial, Helvetica, sans-serif;
   color: #000;
 }
 p {
   font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
 }
 i {
@@ -32,7 +31,6 @@ i {
 }
 .navbar .nav-link{
   font-size: large;
-  font-family: 'Port Lligat Sans', sans-serif;
 
 
 }
@@ -112,21 +110,21 @@ i {
 .card {
   border: none;
 }
+#speech{
+  opacity: 0.5;
+}
 
 .navbar-default {
   background: none;
 }
 
 .font{
-  font-family: 'Bubblegum Sans', cursive;
-  font-size: 25px;
+  font-size: 23px;
   font-weight: bold;
-  color: rgb(56, 48, 48);
+  color: rgb(100, 90, 90);
 }
-#speech {
-  font-family: 'Port Lligat Sans', sans-serif;
-  opacity: 0.6;
-}
+
+
 footer {
   background-color: #1a1816;
   color: #fcf8f8;
@@ -149,7 +147,6 @@ footer {
 }
 
 .card-title {
-  font-family: "Chilanka", cursive;
   font-size: 15px;
 }
 .form-control {
@@ -213,7 +210,6 @@ input:focus {
 }
 .single-service .content h3 {
   font-size: 20px;
-  font-family: 'Bubblegum Sans', cursive;
   color: #574e4e;
   
   font-weight: 300;
@@ -227,11 +223,35 @@ input:focus {
   margin: 20px 0 0;
 }
 
-.single-service {
+#single-service1 {
   background-image: linear-gradient(to bottom, #eba132 0%, #e2c855 100%);
 }
 
-.single-service:hover {
+#single-service1:hover {
+  background-image: linear-gradient(to bottom, #1badda 0%, #35da6c 100%);
+  padding: 30px 20px;
+}
+#single-service2 {
+  background-image: linear-gradient(to bottom, #23961f 0%, #71e255 100%);
+}
+
+#single-service2:hover {
+  background-image: linear-gradient(to bottom, #1badda 0%, #35da6c 100%);
+  padding: 30px 20px;
+}
+#single-service3 {
+  background-image: linear-gradient(to bottom, #eb3232 0%, #e25555 100%);
+}
+
+#single-service3:hover {
+  background-image: linear-gradient(to bottom, #1badda 0%, #35da6c 100%);
+  padding: 30px 20px;
+}
+#single-service4 {
+  background-image: linear-gradient(to bottom, #3b21cfcb 0%, #3944a867 100%);
+}
+
+#single-service4:hover {
   background-image: linear-gradient(to bottom, #1badda 0%, #35da6c 100%);
   padding: 30px 20px;
 }
@@ -291,9 +311,9 @@ input:focus {
 }
 .button-wrapper {
   width: 100%;
-  margin-bottom: 10%;
+  margin-bottom: 0%;
   position: relative;
-  margin-top: 0%;
+  margin-top: 10%;
   text-align: center;
   font-size: 4vw;
 }
@@ -303,7 +323,10 @@ input:focus {
   border: 1px solid rgb(241, 241, 241);
   border-radius: 20px;
   width: 100px;
+  position: relative;
+
   height: auto;
+  text-align: center;
   font-size: 12px;
 }
 #btn1:hover {
