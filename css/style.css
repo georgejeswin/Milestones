@@ -31,8 +31,9 @@ i {
   color: #fa8128;
 }
 .navbar .nav-link{
-  font-family: 'Sriracha', cursive;
   font-size: large;
+  font-family: 'Port Lligat Sans', sans-serif;
+
 
 }
 
@@ -344,23 +345,24 @@ input:focus {
   position: relative;
   text-transform: uppercase;
   font-size: 5vw;
-  -webkit-text-stroke: 1px rgb(8, 2, 2);
-  font-family: "Anton", sans-serif;
+  font-family: 'Luckiest Guy';
+  -webkit-text-stroke: .1px rgb(92, 84, 84);
+
 
   font-weight: bold;
   letter-spacing: 4px;
   overflow: hidden;
   background: linear-gradient(
     90deg,
-    rgb(255, 255, 255),
-    rgb(189, 182, 182),
-    rgba(255, 255, 255, 0.801)
+    rgb(192, 186, 186),
+    rgb(168, 161, 161),
+    rgba(248, 242, 242, 0.801)
   );
   background-repeat: no-repeat;
   background-size: 80%;
   animation: animate 2s linear infinite;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: rgba(255, 255, 255, 0.144);
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.562);
 }
 
 @keyframes animate {
