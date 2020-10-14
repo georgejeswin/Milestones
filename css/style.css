@@ -5,7 +5,6 @@ body {
   margin-left: 10px;
   margin-right: 10px;
   padding-top: 45px;
-  background-image: linear-gradient(to bottom, #ececec 0%, #ffffff 100%);
 
 }
 #header1 {
@@ -118,13 +117,14 @@ i {
 }
 
 .font{
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Bubblegum Sans', cursive;
   font-size: 25px;
   font-weight: bold;
   color: rgb(56, 48, 48);
 }
 #speech {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Port Lligat Sans', sans-serif;
+  opacity: 0.6;
 }
 footer {
   background-color: #1a1816;
@@ -134,7 +134,12 @@ footer {
 .team-img {
   border-radius: 30px;
 }
-
+#full-form{
+  background-image: url(/images/slide3.jpg);
+  background-color: rgba(12, 4, 4, 0.9);
+  background-blend-mode: darken;
+  background-size: cover;
+}
 #contactus {
   background-size: cover;
   border-radius: 0px;
@@ -171,7 +176,7 @@ input:focus {
 .single-service {
   transition: 0.5s;
   text-align: center;
-  height: 350px;
+  height: 280px;
   padding: 55px 50px;
   border-radius: 50px;
 }
@@ -207,6 +212,9 @@ input:focus {
 }
 .single-service .content h3 {
   font-size: 20px;
+  font-family: 'Bubblegum Sans', cursive;
+  color: #574e4e;
+  
   font-weight: 300;
   line-height: 30px;
   margin: 0;
@@ -219,11 +227,11 @@ input:focus {
 }
 
 .single-service {
-  background-image: linear-gradient(to bottom, #80f19f 0%, #0fc1eb 100%);
+  background-image: linear-gradient(to bottom, #eba132 0%, #e2c855 100%);
 }
 
 .single-service:hover {
-  background-image: linear-gradient(to bottom, #da971b 0%, #d4d2cc 100%);
+  background-image: linear-gradient(to bottom, #1badda 0%, #35da6c 100%);
   padding: 30px 20px;
 }
 
@@ -375,11 +383,12 @@ input:focus {
   position: absolute;
   bottom:20px;
   right: 0px;
-  background-color: black;
+  background-color: rgba(219, 125, 17, 0.925);
   color: white;
   padding-left: 20px;
   width: 99%;
   padding-right: 15px;
   padding-top: 10px;
   border-radius: 10px;
+  
 }
