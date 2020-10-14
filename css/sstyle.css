@@ -171,6 +171,15 @@
     padding: 55px 50px;
     border-radius: 50px;
   }
+
+  #ss1 {
+    background-image: linear-gradient(to bottom, #ff8000 0%, #e29955 100%);
+  }
+  
+  #ss2:hover {
+    background-image: linear-gradient(to bottom, #1badda 0%, #35da6c 100%);
+    padding: 30px 20px;
+  }
   .single-service .icon {
     background-color: #fff;
     border-radius: 50%;
