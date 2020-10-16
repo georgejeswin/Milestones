@@ -9,11 +9,16 @@ body {
 }
 #header1 {
   line-height: 2.5rem;
-  background: linear-gradient(90deg, rgba(247, 14, 14, 0), rgb(224, 152, 42));
-  margin-bottom: 0;
+  background: linear-gradient(
+    90deg,
+    #f7680fe7,
+    rgba(228, 142, 29, 0.788)
+
+  );  margin-bottom: 0;
   font-size: 14px;
   color: #000;
 }
+
 p {
   font-size: 12px;
   font-weight: 700;
