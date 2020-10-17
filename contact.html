@@ -59,8 +59,8 @@
 
             </section>
             <div class="row text-dark text-center" id="header1">
-                <div class="col-md-9" > <i class="far fa-clock"></i> Opening Hours: Mon-Sat : 9.30 am - 7.00 pm, Sunday Closed </div>
-                <a href="tel:+917306878569" class="text-dark text-center pl-5">Call now : <i class="fas fa-phone pl-3 pr-2"></i> +91 7306878569</a>
+                <div class="col-md-9" > <i class="far fa-clock text-dark "></i> Opening Hours: Mon-Sat : 9.30 am - 7.00 pm, Sunday Closed </div>
+                <a href="tel:+917306878569" class="text-dark text-center pl-5">Call now : <i class="fas fa-phone pl-3 pr-2 text-dark"></i> +91 7306878569</a>
             </div>
             
             
@@ -353,6 +353,32 @@
   
   </footer>
   <!-- Footer -->
+
+  <script>
+
+    //import swal from 'sweetalert';
+    
+    
+    $("#submit-form").submit((e)=>{
+    e.preventDefault()
+    $.ajax({
+      url:"https://script.google.com/macros/s/AKfycbxWHWnwdUQcjXEQQ3hR60dwZQxFJB4ZPD18EmAk2g/exec",
+      data:$("#submit-form").serialize(),
+      method:"post",
+      success:function (response){
+          //swal("Appoinment Booked Successfully", "success");
+          alert("Appoinment Booked Successfully");
+    
+          window.location.reload()
+          //window.location.href="https://google.com"
+      },
+      error:function (err){
+          alert("Something Error")
+    
+      }
+    })
+    })
+    </script>
 
 
 

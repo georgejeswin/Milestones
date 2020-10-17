@@ -64,8 +64,8 @@
 
             </section>
             <div class="row text-dark text-center" id="header1">
-                <div class="col-md-9" > <i class="far fa-clock"></i> Opening Hours: Mon-Sat : 9.30 am - 7.00 pm, Sunday Closed </div>
-                <a href="tel:+917306878569" class="text-dark text-center pl-5">Call now : <i class="fas fa-phone pl-3 pr-2"></i> +91 7306878569</a>
+                <div class="col-md-9" > <i class="far fa-clock text-dark"></i> Opening Hours: Mon-Sat : 9.30 am - 7.00 pm, Sunday Closed </div>
+                <a href="tel:+917306878569" class="text-dark text-center pl-5">Call now : <i class="fas fa-phone pl-3 pr-2 text-dark"></i> +91 7306878569</a>
             </div>
             
             
@@ -258,8 +258,8 @@
 
 
 
-<section class="conatiner-fluid mr-5 ml-5 mt-5 mb-5 pt-3 service-sec">
-  <div class="row mt-5">
+<section class="conatiner-fluid mr-5 ml-5 mt-3 mb-5 pt-3 service-sec">
+  <div class="row">
   <div class="col-md-6 pt-3 mt-3">
     <h4>SPEECH AND LANGUAGE EVALUATION</h4>
     <p class="service-p">SPEECH AND LANGUAGE EVALUATION • An individual with a speech / language disorder should be brought to a speech language pathologist to find out the type of disorder that has affected individual and its cause. • Speech language pathologist evaluate the cause and the severity of the condition • Speech language pathologist conducts specific standard test to access the receptive, expressive and cognitive levels of the child • Check whether there is swallowing / voice disorder • Communicate / discuss with the parents about the communicative ability and other aspects • Based on the test, suggest therapeutic activities
@@ -765,6 +765,31 @@
   
   </footer>
   <!-- Footer -->
+  <script>
+
+    //import swal from 'sweetalert';
+    
+    
+    $("#submit-form").submit((e)=>{
+    e.preventDefault()
+    $.ajax({
+      url:"https://script.google.com/macros/s/AKfycbxWHWnwdUQcjXEQQ3hR60dwZQxFJB4ZPD18EmAk2g/exec",
+      data:$("#submit-form").serialize(),
+      method:"post",
+      success:function (response){
+          //swal("Appoinment Booked Successfully", "success");
+          alert("Appoinment Booked Successfully");
+    
+          window.location.reload()
+          //window.location.href="https://google.com"
+      },
+      error:function (err){
+          alert("Something Error")
+    
+      }
+    })
+    })
+    </script>
 
 
 
