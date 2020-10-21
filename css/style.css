@@ -24,7 +24,7 @@ padding-top: 0px;
 }
 p {
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 400;
 }
 i {
   color: #d87e2a;
@@ -32,6 +32,7 @@ i {
 #nav li a{
   color: #dd893b;
   font-size: medium;
+  font-weight: 400;
 }
 nav li #active{
   color: #945931;
@@ -132,7 +133,7 @@ nav li #active{
 
 .font{
   font-size: 23px;
-  font-weight: bold;
+  font-weight: 500;
   color: rgb(100, 90, 90);
 }
 

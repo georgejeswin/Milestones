@@ -29,6 +29,8 @@ i {
 
 #nav li a{
   color: #dd893b;
+  font-weight: 400;
+
 }
 nav li #active{
   color: #945931;
@@ -321,28 +323,26 @@ input:focus {
   color: rgb(255, 255, 255);
   border: 1px solid rgb(255, 255, 255);
 }
-
-.text-wrapper h3 {
-  position: relative;
-  text-transform: uppercase;
+#aboutt{
   font-size: 5vw;
-  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  text-align: center;
+  font-weight: 200;
 
-  font-weight: bold;
-  letter-spacing: 4px;
-  overflow: hidden;
-  background: linear-gradient(
-    90deg,
-    rgb(255, 255, 255),
-    rgb(255, 255, 255),
-    rgba(255, 255, 255, 0.801)
-  );
-  background-repeat: no-repeat;
-  background-size: 80%;
-  animation: animate 2s linear infinite;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: rgb(255, 255, 255);
 }
+  
+  .text-wrapper {
+    width: 100%;
+    position: relative;
+    margin-top: -20%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #eeee;
+    font-weight: normal;
+
+
+  }
+
+
 
 @keyframes animate {
   0% {
