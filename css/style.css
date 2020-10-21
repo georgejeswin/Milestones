@@ -1,12 +1,13 @@
 * {
   box-sizing: border-box;
   margin-top: 0;
+  margin: 0;
 }
 body {
   margin-top: 0px;
 padding-top: 0px;
   font-family: 'Times New Roman', Times, serif;
-  background-color: #eeeeee;
+  background-color: #dad5d5;
 
 }
 #header1 {
@@ -122,6 +123,7 @@ nav li #active{
 }
 #speech{
   opacity: 0.5;
+  font-weight: 300;
 }
 
 .navbar-default {
@@ -144,16 +146,30 @@ footer {
   border-radius: 30px;
 }
 #full-form{
-  background-image: url(../images/slide3.jpg);
-  background-color: rgba(12, 4, 4, 0.9);
-  background-blend-mode: darken;
+  background: linear-gradient(
+    90deg,
+    #da6218d3,
+    rgba(236, 140, 13, 0.596)
+
+  );  background-blend-mode: darken;
   background-size: cover;
+}
+#form1{
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 30px; width: 85%; box-shadow:
+    0 8.8px 2.2px rgba(143, 72, 72, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+    ;
 }
 #contactus {
   background-size: cover;
   border-radius: 0px;
   border: none;
-  background-color: rgb(255, 255, 255);
 }
 
 .card-title {
