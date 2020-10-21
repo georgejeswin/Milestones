@@ -326,7 +326,7 @@ input:focus {
   position: relative;
   text-transform: uppercase;
   font-size: 5vw;
-  -webkit-text-stroke: 1px rgb(8, 2, 2);
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
 
   font-weight: bold;
   letter-spacing: 4px;
@@ -334,14 +334,14 @@ input:focus {
   background: linear-gradient(
     90deg,
     rgb(255, 255, 255),
-    rgb(189, 182, 182),
+    rgb(255, 255, 255),
     rgba(255, 255, 255, 0.801)
   );
   background-repeat: no-repeat;
   background-size: 80%;
   animation: animate 2s linear infinite;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: rgba(255, 255, 255, 0.144);
+  -webkit-text-fill-color: rgb(255, 255, 255);
 }
 
 @keyframes animate {

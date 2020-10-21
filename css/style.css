@@ -30,6 +30,7 @@ i {
 }
 #nav li a{
   color: #dd893b;
+  font-size: medium;
 }
 nav li #active{
   color: #945931;
