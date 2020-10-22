@@ -271,10 +271,15 @@
     color: #f37d0e;
   }
 #aboutt{
-  font-size: 5vw;
+  font-size: 1.5rem;
   text-align: center;
-  font-weight: 200;
+  font-weight: 500;
 
+}
+@media screen and (min-width: 601px) {
+  #aboutt{
+    font-size: 50px;
+  }
 }
   
   .text-wrapper {

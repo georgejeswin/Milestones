@@ -38,7 +38,7 @@ nav li #active{
   color: #dd6e24;
 }
 #nav li a:hover {
-  color: #9e5d32;
+  color: #f78503;
 }
 .navbar .nav-link{
   font-size: large;
@@ -64,7 +64,7 @@ nav li #active{
 }
 
 .navbar {
-  min-height: 50px;
+  min-height: 20px;
 }
 
 .navbar-brand {
@@ -76,7 +76,7 @@ nav li #active{
 .navbar-toggle {
   /* (80px - button height 34px) / 2 = 23px */
   margin-top: 23px;
-  padding: 9px 10px !important;
+  padding: 9px 90px !important;
 }
 
 @media (min-width: 768px) {
