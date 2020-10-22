@@ -28,15 +28,15 @@ i {
 }
 
 #nav li a{
-  color: #dd893b;
+  color: #000000;
   font-weight: 400;
 
 }
 nav li #active{
-  color: #945931;
+  color: #df6a1c;
 }
 #nav li a:hover {
-  color: #161414;
+  color: #e76712;
 }
 .navbar .nav-link{
   font-size: large;

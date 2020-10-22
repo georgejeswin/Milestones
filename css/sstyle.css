@@ -30,15 +30,15 @@
   }
   
   #nav li a{
-    color: #dd893b;
-    font-weight: 400;
+    color: #000000;
+    font-weight: 500;
 
   }
   nav li #active{
-    color: #945931;
+    color: #e77110;
   }
   #nav li a:hover {
-    color: #161414;
+    color: #e07918;
   }
   .navbar .nav-link{
     font-size: large;
