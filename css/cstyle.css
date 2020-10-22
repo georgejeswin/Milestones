@@ -29,8 +29,8 @@ i {
 
 #nav li a{
   color: #000000;
+  font-size: medium;
   font-weight: 500;
-
 }
 nav li #active{
   color: #df6a1c;
