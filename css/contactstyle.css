@@ -1,13 +1,11 @@
 * {
   box-sizing: border-box;
-  margin-top: 0;
-  margin: 0;
 }
 body {
-  margin-top: 0px;
-  padding-top: 0px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 45px;
   font-family: "Times New Roman", Times, serif;
-  background-color: #dad5d5;
 }
 #header1 {
   line-height: 2.5rem;
@@ -16,13 +14,15 @@ body {
   font-size: 14px;
   color: #000;
 }
+
 p {
   font-size: 12px;
-  font-weight: 400;
+  font-weight: 700;
 }
 i {
   color: #d87e2a;
 }
+
 #nav li a {
   color: #000000;
   font-size: medium;
@@ -40,13 +40,8 @@ nav li #active {
   font-size: large;
   color: #f7680fe7;
 }
-
 .mcl {
   font-weight: 100;
-  transition: transform 200ms ease-in;
-}
-.mcl:hover {
-  transform: scale(1.09);
 }
 #navb {
   background: linear-gradient(
@@ -58,11 +53,10 @@ nav li #active {
 
   color: #ff8000;
   font-size: 20px;
-  font-weight: 600;
 }
 
 .navbar {
-  min-height: 20px;
+  min-height: 50px;
 }
 
 .navbar-brand {
@@ -74,7 +68,7 @@ nav li #active {
 .navbar-toggle {
   /* (80px - button height 34px) / 2 = 23px */
   margin-top: 23px;
-  padding: 9px 90px !important;
+  padding: 9px 10px !important;
 }
 
 @media (min-width: 768px) {
@@ -84,6 +78,10 @@ nav li #active {
     padding-bottom: 26.5px;
     line-height: 27px;
   }
+}
+
+.navbar .nav-link {
+  font-size: large;
 }
 .circle-icon {
   background: #1f1c1c;
@@ -116,19 +114,9 @@ nav li #active {
   background-color: white;
   border-bottom: 2px solid rgb(220, 220, 220);
 }
-.rndimg {
-  transition: transform 200ms ease-in;
-}
-.rndimg:hover {
-  transform: scale(1.08);
-}
+
 .card {
   border: none;
-}
-
-#speech {
-  opacity: 0.5;
-  font-weight: 300;
 }
 
 .navbar-default {
@@ -136,9 +124,9 @@ nav li #active {
 }
 
 .font {
-  font-size: 23px;
-  font-weight: 500;
-  color: rgb(100, 90, 90);
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(56, 48, 48);
 }
 
 footer {
@@ -149,6 +137,13 @@ footer {
 .team-img {
   border-radius: 30px;
 }
+
+/*#full-form {
+  background-image: url(../images/slide3.jpg);
+  background-color: rgba(12, 4, 4, 0.9);
+  background-blend-mode: darken;
+  background-size: cover;
+}*/
 #full-form {
   background: linear-gradient(90deg, #da6218d3, rgba(236, 140, 13, 0.596));
   background-blend-mode: darken;
@@ -169,6 +164,13 @@ footer {
   border-radius: 0px;
   border: none;
 }
+
+/*#contactus {
+  background-size: cover;
+  border-radius: 0px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+}*/
 
 .card-title {
   font-size: 15px;
@@ -198,10 +200,13 @@ input:focus {
 .single-service {
   transition: 0.5s;
   text-align: center;
-  height: 280px;
+  height: 300px;
   padding: 55px 50px;
-  border-radius: 50px;
+  background-color: rgb(238, 238, 238);
+  border-radius: 40px;
+  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.4);
 }
+
 .single-service .icon {
   background-color: #fff;
   border-radius: 50%;
@@ -211,15 +216,6 @@ input:focus {
   height: 90px;
   width: 90px;
   margin-bottom: 35px;
-}
-.counter .icon {
-  background-color: rgb(245, 245, 245);
-  border-radius: 50%;
-  box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.4);
-  display: inline-block;
-  height: 60px;
-  width: 60px;
-  margin-bottom: 30px;
 }
 
 .single-service .icon i {
@@ -234,8 +230,6 @@ input:focus {
 }
 .single-service .content h3 {
   font-size: 20px;
-  color: #574e4e;
-
   font-weight: 300;
   line-height: 30px;
   margin: 0;
@@ -247,36 +241,7 @@ input:focus {
   margin: 20px 0 0;
 }
 
-#single-service1 {
-  background-image: linear-gradient(to bottom, #ff8000 0%, #e29955 100%);
-}
-
-#single-service1:hover {
-  background-image: linear-gradient(to bottom, #1badda 0%, #35da6c 100%);
-  padding: 30px 20px;
-}
-#single-service2 {
-  background-image: linear-gradient(to bottom, #23961f 0%, #71e255 100%);
-}
-
-#single-service2:hover {
-  background-image: linear-gradient(to bottom, #1badda 0%, #35da6c 100%);
-  padding: 30px 20px;
-}
-#single-service3 {
-  background-image: linear-gradient(to bottom, #eb3232 0%, #e25555 100%);
-}
-
-#single-service3:hover {
-  background-image: linear-gradient(to bottom, #1badda 0%, #35da6c 100%);
-  padding: 30px 20px;
-}
-#single-service4 {
-  background-image: linear-gradient(to bottom, #2198cfcb 0%, #398ea8ec 100%);
-}
-
-#single-service4:hover {
-  background-image: linear-gradient(to bottom, #1badda 0%, #35da6c 100%);
+.single-service:hover {
   padding: 30px 20px;
 }
 
@@ -285,6 +250,7 @@ input:focus {
 }
 
 .counter {
+  background-color: #ffffff;
   padding: 20px 0;
   border-radius: 5px;
 }
@@ -315,7 +281,7 @@ input:focus {
 .text-wrapper {
   width: 100%;
   position: relative;
-  margin-top: -23%;
+  margin-top: -27%;
 }
 .text-wrapper h3 {
   text-align: center;
@@ -324,9 +290,9 @@ input:focus {
 }
 .button-wrapper {
   width: 100%;
-  margin-bottom: 0%;
+  margin-bottom: 10%;
   position: relative;
-  margin-top: 10%;
+  margin-top: 0%;
   text-align: center;
   font-size: 4vw;
 }
@@ -336,10 +302,7 @@ input:focus {
   border: 1px solid rgb(241, 241, 241);
   border-radius: 20px;
   width: 100px;
-  position: relative;
-
   height: auto;
-  text-align: center;
   font-size: 12px;
 }
 #btn1:hover {
@@ -376,28 +339,20 @@ input:focus {
   color: rgb(255, 255, 255);
   border: 1px solid rgb(255, 255, 255);
 }
-
-.text-wrapper h3 {
-  position: relative;
-  text-transform: uppercase;
+#aboutt {
   font-size: 5vw;
-  font-family: "Luckiest Guy";
-  -webkit-text-stroke: 0.1px rgb(92, 84, 84);
+  text-align: center;
+  font-weight: 200;
+}
 
-  font-weight: bold;
-  letter-spacing: 4px;
-  overflow: hidden;
-  background: linear-gradient(
-    90deg,
-    rgb(192, 186, 186),
-    rgb(168, 161, 161),
-    rgba(248, 242, 242, 0.801)
-  );
-  background-repeat: no-repeat;
-  background-size: 80%;
-  animation: animate 2s linear infinite;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: rgba(255, 255, 255, 0.562);
+.text-wrapper {
+  width: 100%;
+  position: relative;
+  margin-top: -20%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  color: #eeee;
+  font-weight: normal;
 }
 
 @keyframes animate {
@@ -407,6 +362,39 @@ input:focus {
   100% {
     background-position: 500%;
   }
+}
+
+#stay {
+  background-color: rgba(243, 239, 239, 0.822);
+  font-family: sans-serif;
+}
+#stayh {
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: 200;
+  margin-left: 80px;
+  padding-top: 50px;
+}
+#staytable {
+  width: 100%;
+  margin: 20px 80px;
+}
+#staytable th {
+  text-align: left;
+  font-size: 22px;
+  font-weight: 300;
+  padding: 30px 0px;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+}
+#staytable tr td {
+  text-align: left;
+  font-size: 15px;
+  font-weight: 300;
+  padding: 20px 0px;
+  box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.1);
+}
+#staytable tr td:hover {
+  text-decoration: underline;
 }
 
 /* Container holding the image and the text */
@@ -419,11 +407,22 @@ input:focus {
   position: absolute;
   bottom: 20px;
   right: 0px;
-  background-color: rgba(219, 125, 17, 0.925);
+  background-color: black;
   color: white;
   padding-left: 20px;
   width: 99%;
-  padding-right: 15px;
+  padding-right: 10px;
   padding-top: 10px;
   border-radius: 10px;
+}
+
+.service-sec div div p {
+  color: grey;
+  font-size: 15px;
+  font-family: "Ubuntu", sans-serif;
+}
+.service-sec div div h4 {
+  color: rgb(15, 14, 14);
+  font-size: 22px;
+  font-family: "Josefin Sans", sans-serif;
 }
