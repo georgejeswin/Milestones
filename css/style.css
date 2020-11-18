@@ -28,13 +28,14 @@ i {
   font-size: medium;
   font-weight: 500;
   transition: transform 200ms ease-in;
+  margin-left: 15px;
 }
 nav li #active {
   color: #dd6e24;
 }
 #nav li a:hover {
   color: #f78503;
-  transform: scale(1.09);
+  transform: scale(1.07);
 }
 .navbar .nav-link {
   font-size: large;
